@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: FFDINforPuma, "Inter", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.offers-sections{
+    padding: 10px;
+   text-align: center;
+}
+.offers-sections span{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+nav{
+    background: #181818;
+    padding: 0 20px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 5px;
+}
+.logo{
+    padding: 10px;
+    margin-right: 30px;
+}
+.logo a img{
+    width: 30px;
+}
+
+.categories{
+    display: flex;
+    align-items: center;
+    flex: 1 1 0;
+    gap: 30px;
+    list-style: none;
+    font-size: 14px;
+}
+.categories li a{
+    color: #fff;
+    font-weight: 700;
+}
+.user-section{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: 10px;
+
+}
+
+.serachBox button{
+    display: flex;
+    gap: 5px;
+}
+i{
+    color: #fff;
+}
+.serachBox button{
+    pointer-events: all;
+    position: relative;
+    display: inline-flex;
+    white-space: normal;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    min-width: max-content;
+    border-width: 1px;
+    border: 1px solid rgba(103, 109, 117);
+    background-color: transparent;
+    border-radius: 0.125rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    
+}
+.serachBox button img{
+    display: flex;
+    align-items: center;
+    width: 20px;
+}
+
+
+.sale-section{
+    background-color: #414584;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sale-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    padding: 10px;
+    color: #fff;
+    
+}
+.sale-box p {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+    font-size: 12px;
+}
+.sale-box a{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.main-section{
+    position: relative;
+}
+.banner-img img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.newBY{
+position: absolute;
+top: 30%;
+left: 5%;
+}
+.newArraivals{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.newArraivals h1{
+    /* font-size: 2rem; */
+    /* margin: 0; */
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 40px;
+}
+.newArraivals p{
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.newArraivalsBTN {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.newArraivalsBTN button{
+    padding:10px 20px;
+    background: #fff;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    /* margin-right: 20px; */
+}
+
+
+
+.year-offer{
+    position: relative;
+}
+
+/* .year-offer-img img{
+    width: 100%;
+} */
+
+.year-lowest-price{
+/* position: absolute; */
+top: 45%;
+left: 40%;
+height: 100%;
+
+}
+
+.year-lowest-priceBox{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.year-lowest-priceBox h2{
+    font-size: 40px;
+        line-height: 1.1;
+        color: #fff;
+}
+.year-lowest-priceBox p{
+    font-size: 24px;
+        line-height: 1.1;
+        color: #fff;
+}
+.year-lowest-priceBox button{
+    padding: 10px 14px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+
+.Paleremo-container {
+    display: grid;
+    background-color: #E6E1DB;
+    grid-template-columns: repeat(2, minmax(0px, 1fr));
+    padding: 20px;
+    /* position: relative; */
+}
+.palermo-left {
+    /* width: 40%; */
+    padding: 20px;
+    box-sizing: border-box;
+}/* 
+.palermo-left h3 {
+    font-size: 2em;
+    margin: 0;
+}
+.palermo-left p {
+    margin-top: 5px;
+    font-size: 1em;
+    color: #333;
+}
+.palermo-left-button {
+    margin-top: 20px;
+}
+.palermo-left-button button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    font-size: 1em;
+}
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio *
+    overflow: hidden;
+}
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.image-right {
+    width: 60%;
+    position: relative;
+}
+.image-right img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+} */
+
+
+.palermo-playbook-box{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+}
+.palermo-playbook-box h4{
+  font-size: 40px;
+}
+.palermo-playbook-box p{
+    /* font-size: 30px; */
+    color: #c1c0bf;
+  }
+
+
+  .playbook-container{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .playbook-box img{
+    width: 100%;
+  }
+  .playbook-details{
+    text-align: center;
+    padding: 10px;
+  }
+  .playbook-details h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    letter-spacing: -0.5px;
+    
+  }
+  .playbook-details button{
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    font-size: 14px;
+  }
+
+
+  .footer {
+    background-color: #111;
+    color: #fff;
+    padding: 40px 20px;
+}
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-section {
+    flex: 1 1 200px;
+    margin: 20px;
+}
+.footer-section h4 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    line-height: 1.8;
+}
+.footer-section ul li a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+.footer-section ul li a:hover {
+    color: #fff;
+}
+
+/* Social Media Section */
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+.social-icons a {
+    font-size: 1.5em;
+    color: #ccc;
+    text-decoration: none;
+}
+.social-icons a:hover {
+    color: #fff;
+}
+
+/* Explore Section */
+.explore-icons {
+    display: flex;
+    /* gap: 15px; */
+    margin-top: 10px;
+    border: 1px solid #444;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 8px;
+
+
+}
+
+.explore-icons p{
+    font-size: 10px;
+    text-align: center;
+}
+.explore-icons img {
+    width: 50px;
+    height: auto;
+}
+
+/* Country Selector */
+.country-selector {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.9em;
+    margin-top: 20px;
+}
+.country-selector img {
+    width: 25px;
+    height: auto;
+}
+
+/* Bottom Text Section */
+.footer-bottom {
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+    color: #ccc;
+}
+.footer-bottom a {
+    color: #ccc;
+    text-decoration: none;
+}
+.footer-bottom a:hover {
+    color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-section {
+        margin: 10px 0;
+    }
+    .social-icons, .explore-icons {
+        justify-content: center;
+    }
+}
+
+ @media (max-width: 768px) {
+    .navbar, .footer-container, .playbook-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .categories, .user-section {
+        display: none; /* Example for collapsing the navbar categories on mobile */
+    }
+    video{
+    position: relative;
+    z-index: 1;
+    width: 80vw;
+    left: -24px;
+}
+} 
